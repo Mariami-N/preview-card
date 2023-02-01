@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+.contaner{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+     height: 900px; 
+    background-color: #0D192C;
+    position: relative;
+}
+.card{
+    position: absolute;
+    width: 350px;
+    height: 596px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #15263F;
+}
+.main :hover{
+    background-color: #00FFF8;
+}
+.main{
+    position: absolute;
+    width: 302px;
+    height: 302px;
+    top: 24px;
+    left: 24px;
+}
+h1{
+    position: absolute;
+    top: 350px;
+    left: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+.card p{
+    position: absolute;
+    top: 394px;
+    left: 24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+}
+.eth{
+    position: absolute;
+    top: 470px;
+    left: 24px;
+}
+.line{
+   position: absolute;
+   top: 514px;
+   left: 24px;
+}
+.oval{
+    position: absolute;
+    top: 531px;
+    left: 24px;
+}
+.part1{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    position: absolute;
+    top: 531px;
+    left: 73px;
+}
+.part2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 531px;
+    left: 159px;
+}
+span{
+    position: absolute;
+    top: 531px;
+    left: 73px;
+}
+@media(max-width: 375px){
+ .contaner{
+    margin: 0 auto ;
+ }
+    .card{
+    width: 327px;
+    height: 543px;
+ }  
+}
