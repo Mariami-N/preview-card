@@ -15,9 +15,25 @@
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: #15263F;
+    border-radius: 20px;
 }
-.main :hover{
+.eyesdiv{
+    position: absolute;
+    width: 302px;
+    height: 302px;
     background-color: #00FFF8;
+    top: 24px;
+    left: 24px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.eyesdiv:hover{
+     opacity: 1;
+     background-color: rgba(0, 255, 248, 0.5); 
+    cursor: pointer;
 }
 .main{
     position: absolute;
@@ -36,6 +52,9 @@ h1{
     font-size: 22px;
     line-height: 28px;
     color: #FFFFFF;
+}
+h1:hover{
+    color: #00FFF8;
 
 }
 .card p{
@@ -54,9 +73,10 @@ h1{
     top: 470px;
     left: 24px;
 }
-.line{
+hr{
    position: absolute;
-   top: 514px;
+   width: 302px;
+   top: 500px;
    left: 24px;
 }
 .oval{
@@ -86,6 +106,9 @@ h1{
     top: 531px;
     left: 159px;
 }
+.part2:hover{
+    color: #00FFF8;
+}
 span{
     position: absolute;
     top: 531px;
@@ -93,10 +116,44 @@ span{
 }
 @media(max-width: 375px){
  .contaner{
-    margin: 0 auto ;
+    height: 667px;
  }
-    .card{
+.card{
     width: 327px;
     height: 543px;
  }  
+ .main{
+    position: absolute;
+    width: 278px;
+    height: 278px;
+    top: 24px;
+    left: 24px;
+}
+h1{
+    width: 278px;
+    height: 28px;
+    top: 330px;
+}
+.card p{
+    width: 220ps;
+    height: 45px;
+    top: 372px;
+}
+.eth{
+    width: 250px;
+    height: 19px;
+    top:440px ;
+}
+hr{
+    top: 470px;
+}
+.oval{
+    top: 490px;
+}
+.part1{
+    top: 490px;  
+}
+.part2{
+    top: 490px;  
+}
 }
